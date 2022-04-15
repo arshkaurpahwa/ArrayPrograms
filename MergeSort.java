@@ -1,14 +1,10 @@
 // Merge sort in Java
-
 class MergeSort {
-
     // Merge two subarrays L and M into arr
     void merge(int arr[], int left, int mid, int right) {
-  
       // Create L ← A[p..q] and M ← A[q+1..r]
       int n1 = mid - left + 1;
       int n2 = right - mid;
-  
       int L[] = new int[n1];
       int M[] = new int[n2];
   
